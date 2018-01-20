@@ -1,4 +1,7 @@
-# AppAng4TemplateAdminLte
+## AppAng4TemplateAdminLte
+
+Projet base utilizando o template (https://adminlte.io/themes/AdminLTE/index2.html).
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.2.
 
