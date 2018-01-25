@@ -10,7 +10,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SidebarLeftComponent } from './sidebar-left/sidebar-left.component';
 import { SidebarRightComponent } from './sidebar-right/sidebar-right.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { PagesModule } from './pages/pages.module';
 
 @NgModule({
   declarations: [
@@ -23,6 +23,7 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
+    PagesModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [],
