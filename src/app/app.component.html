@@ -1,8 +1,12 @@
 <div class="wrapper">
   <sm-header></sm-header>
   <sm-sidebar-left></sm-sidebar-left>
-  
-  <router-outlet></router-outlet>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <router-outlet></router-outlet>
+  </div>
+  <!-- /.content-wrapper -->
 
   <sm-footer></sm-footer>
   <sm-sidebar-right></sm-sidebar-right>
