@@ -11,6 +11,8 @@ import { SidebarLeftComponent } from './sidebar-left/sidebar-left.component';
 import { SidebarRightComponent } from './sidebar-right/sidebar-right.component';
 import { FooterComponent } from './footer/footer.component';
 import { PagesModule } from './pages/pages.module';
+import { DashboardV1Component } from './dashboard/dashboard-v1/dashboard-v1.component';
+import { DashboardV2Component } from './dashboard/dashboard-v2/dashboard-v2.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { PagesModule } from './pages/pages.module';
     SidebarLeftComponent,
     SidebarRightComponent,
     FooterComponent,
-    DashboardComponent
+    DashboardComponent,
+    DashboardV1Component,
+    DashboardV2Component
   ],
   imports: [
     BrowserModule,
