@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { 404Component } from './404.component';
+import { GeneralUiComponent } from './general-ui.component';
 
-describe('404Component', () => {
-  let component: 404Component;
-  let fixture: ComponentFixture<404Component>;
+describe('GeneralUiComponent', () => {
+  let component: GeneralUiComponent;
+  let fixture: ComponentFixture<GeneralUiComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ 404Component ]
+      declarations: [ GeneralUiComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(404Component);
+    fixture = TestBed.createComponent(GeneralUiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

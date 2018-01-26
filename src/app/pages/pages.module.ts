@@ -1,7 +1,11 @@
 ;
+import { Page500Component } from './examples/page-500/page-500.component';
+import { Page404Component } from './examples/page-404/page-404.component';
+
+import { GeneralUiComponent } from './UI/general-ui/general-ui.component';
 import { PaceComponent } from './examples/pace/pace.component';
 import { BlankComponent } from './examples/blank/blank.component';
-import { 500Component } from './examples/500/500.component'import { NgModule } from "@angular/core";
+import { NgModule } from "@angular/core";
 import { GeneralComponent } from "./forms/general/general.component";
 import { RouterModule } from "@angular/router";
 import { ROUTES } from "../pages/page.route";
@@ -32,7 +36,6 @@ import { ProfileComponent } from './examples/profile/profile.component';
 import { LoginComponent } from './examples/login/login.component';
 import { RegisterComponent } from './examples/register/register.component';
 import { LockscreenComponent } from './examples/lockscreen/lockscreen.component';
-import { 404Component } from './examples/404/404.component';
 
 @NgModule({
     declarations: [
@@ -64,7 +67,12 @@ import { 404Component } from './examples/404/404.component';
         LoginComponent,
         RegisterComponent,
         LockscreenComponent,
-        404Component, 500Component, BlankComponent, PaceComponent
+        BlankComponent,
+        PaceComponent,
+        GeneralUiComponent,
+        Page404Component,
+        Page500Component,
+        TopNavComponent
     ],
     imports: [
         RouterModule.forRoot(ROUTES)
